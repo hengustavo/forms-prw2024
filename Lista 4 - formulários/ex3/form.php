@@ -3,10 +3,7 @@
     $estado = $_POST['estado'];
     $capital ='';
 
-    if($estado == 'SP'){
-        $capital = 'São Paulo';
-    }
-    else if($estado == 'AC'){
+    if($estado == 'AC'){
         $capital = 'Rio Branco';
     }
     else if($estado == 'AL'){
@@ -74,6 +71,9 @@
     }
     else if($estado == 'SC'){
         $capital = 'Florianópolis ';
+    }
+    else if($estado == 'SP'){
+        $capital = 'São Paulo';
     }
     else if($estado == 'SE'){
         $capital = 'Aracaju';
