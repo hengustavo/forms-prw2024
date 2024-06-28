@@ -7,15 +7,21 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Escolha a opção desejada</h1>
     <form action="form.php" method="post">
+    <h1>Escolha uma das opções abaixo:</h1>
+    <div>
+        <input type="radio" name="escolha" value="1">Soma <br>
+        <input type="radio" name="escolha" value="2">Subtrair <br>
+        <input type="radio" name="escolha" value="3">Dividir <br>
+        <input type="radio" name="escolha" value="4">Multiplicar <br>
+    </div>
         <div>
             <label for="número1">Número 1 =></label>
-            <input type="number" name="número1">
+            <input type="number" name="valor1" id="valor1">
         </div>
         <div>
             <label for="numero2">Número 2:</label>
-            <input type="number" name="número2">
+            <input type="number" name="valor2" id="valor2">
         </div>
         <div>
             <button type="submit">Enviar</button>
